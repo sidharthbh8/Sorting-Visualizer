@@ -1,5 +1,5 @@
 # Sorting-Visualizer
-Made a Sorting Visualizer using HTML CSS JS & BOOTSRAP. 
+Made a Sorting Visualizer using HTML CSS JS & BOOTSTRAP. 
 
 Added 4 sorting -
 
