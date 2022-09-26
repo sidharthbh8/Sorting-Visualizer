@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sorting Visualizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./src/bar-icon.jpg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sorting Visualizer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="btn btn-dark bubble">Bubble Sort</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-dark selection">Selection Sort</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-dark insertion">Insertion Sort</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-dark quick">Quick Sort</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <input type="range" class="slider" min="10" max="100" value="0" >
+        <output id="output">&nbsp Array Length: 0</output>
+        <div class="lines">
+            <!-- Bars Here -->
+        </div>
+        <button class="btn btn-light reset">Reset Array</button>
+    </main>
+    <section>
+        <div class="source-code">
+            <a href="https://github.com/"><img src="./src/GitHub.png" alt="GitHub"></a>
+            <div class="popup"><p>Source Code Here</p></div>
+        </div>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

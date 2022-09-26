@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212529;
+}
+
+.navbar-brand{
+    font-family: 'Rubik Dirt', cursive;
+}
+#output {
+    color: #f7f7f7;
+    font-size: larger;
+    background-color: rgb(7, 90, 223);
+    border: solid 2px rgb(7, 90, 223);
+    border-radius: 5px;
+    padding: 6px;
+    height: 3rem;
+    width: 10.4rem;
+    margin-left: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    border-radius: 9px;
+    margin-left: 28rem;
+    margin-top: 3rem;
+    height: 1.1rem;
+    width: 27rem;
+    outline: none;
+    opacity: 0.7;
+    background: rgb(177, 174, 174);
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    background: rgb(7, 90, 223);
+}
+
+.reset {
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    height: 3rem;
+    width: 8rem;
+    margin-top: -11.3rem;
+    margin-left: 11.1rem;
+    padding: 3px;
+    color: #000;
+    transition: 0.4s;
+}
+
+.lines {
+    display: flex;
+    height: 0.2rem;
+    width: 70rem;
+    margin-left: 10.9rem;
+    margin-top: 3rem;
+}
+
+.tab {
+    margin-top: 2.8px;
+    margin-left: 4px;
+    height: 25rem;
+    width: 2rem;
+    background-color: greenyellow;
+    border-radius: 5px;
+    transition: height 0.1s ease-in-out;
+}
+
+.source-code {
+    margin-left: 90%;
+    margin-top: 25%;
+}
+.popup{
+    height: 3.2rem;
+    width: 10.1rem;
+    padding: 11.5px;
+    margin-left: -10.6rem;
+    margin-top: -3.4rem;
+    color: #f7f7f7;
+    background-color: rgb(7, 90, 223);
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
